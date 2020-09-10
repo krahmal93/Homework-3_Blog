@@ -1,0 +1,162 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+article {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    display: block;
+    line-height: 0;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #525252;
+}
+
+.content__wrapper {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header {
+    padding: 20px 0;
+    background-color: #f0f0f0;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+}
+
+.menu {
+    display: flex;
+}
+
+.item__menu a {
+    padding-left: 40px;
+    font-weight: bold;
+    color: #8dc63f;
+}
+
+.item__menu a:hover {
+    text-decoration: underline;
+}
+
+.item__menu a:active {
+    color: #525252;
+}
+
+.main__title {
+    padding: 50px 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+.articles__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 900px;
+    min-height: 655px;
+}
+
+.article {
+    display: flex;
+    border: 1px solid #8dc63f;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+}
+
+.content__wrapper__article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0 15px;
+}
+
+.article h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.text {
+    line-height: 1.8;
+}
+
+.learn {
+    font-weight: bold;
+    color: #8dc63f;
+}
+
+.learn:hover {
+    text-decoration: underline;
+}
+
+.learn:active {
+    color: #525252;
+}
+
+.first__article {
+    width: 590px;
+    min-height: 200px;
+}
+
+.article__short {
+    width: 280px;
+}
+
+.article__long {
+    align-self: flex-end;
+    width: 280px;
+    min-height: 400px;
+    
+}
+
+.footer {
+    margin-top: 40px;
+    background-color: #525252;
+    color: #8dc63f;
+}
+
+.footer__wrapper {
+    display: flex;
+    min-height: 120px;
+}
+
+.footer__title {
+    align-self: center;
+    
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    width: 50px;
+    margin: 10px;
+}
+
+.icons img {
+    width: 20px;
+    height: 20px;
+}
+
+.icons:first-child {
+    margin-left: 20px;
+    margin-right: 10px;
+}
